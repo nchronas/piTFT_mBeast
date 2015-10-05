@@ -1,6 +1,6 @@
 FROM resin/%%RESIN_MACHINE_NAME%%-python
 
-RUN apt-get update && apt-get install -y python-pygame git dropbear
+RUN apt-get update && apt-get install -y python-pygame git
 
 ENV INITSYSTEM on
 
