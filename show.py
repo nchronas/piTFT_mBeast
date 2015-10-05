@@ -63,7 +63,8 @@ def main():
     device = os.getenv('DEVICE')
     print device
 
-    if device == "raspberrypi" :
+    if device == "raspberrypi2" :
+    #if device == "raspberrypi" :
         print "It has a screen"
 
         # font colours
